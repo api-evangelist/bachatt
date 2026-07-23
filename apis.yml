@@ -1,7 +1,13 @@
 aid: bachatt
 name: Bachatt
-description: 'Bachatt is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Bachatt is a daily savings and investments mobile app operated by Trusave Fintech Private Limited,
+  designed for India''s underserved and self-employed population. As an AMFI-registered mutual fund distributor,
+  Bachatt lets users save from as little as INR 100/day and invest in liquid mutual funds (Insta Fund) with
+  instant withdrawal, curated mutual fund baskets (Bachatt Wealth), gold and silver mutual funds, fixed deposits,
+  and access instant personal and business loans (Insta Loans) up to INR 5 lakhs. The company partners with
+  major AMCs including SBI, ICICI Prudential, Axis, and HDFC and delivers everything through a single UPI-powered
+  mobile application on Android and iOS. Bachatt is backed by Accel. This profile is maintained in the API
+  Evangelist network; Bachatt is a consumer fintech app and does not currently publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/bachatt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bachatt.app/opengraph-image?04d4ffe7c4ed5604
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Savings
+- Mutual Funds
+- Investments
+- Lending
+- India
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.bachatt.app/
+- type: Support
+  url: https://www.bachatt.app/help/customer-support
+- type: TermsOfService
+  url: https://www.bachatt.app/policies/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.bachatt.app/policies/privacy-policy
+- type: DomainSecurity
+  url: security/bachatt-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
